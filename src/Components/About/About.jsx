@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './About.css'
-import cncImg from '../../assets/electric.jpeg'
+import cncImg from '../../assets/dm.jpg'
 import { TiStar } from "react-icons/ti";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -22,8 +22,8 @@ const About = ({ data }) => {
     heading:
       "We prepare you with practical skills to succeed and get <span>hired by leading companies</span>",
 
-    description:
-      "Our Electric Vehicle (02, 03 & 04 Wheeler) course is designed to make you a truly job-ready EV technician. You don’t just learn—you gain a recognized NSQF Level certification (Digilocker Verified) while working on real EV systems and practical projects. The training covers what actually matters in the EV industry, including battery systems, motor & controller working, wiring, diagnostics, and essential safety practices. As you progress, you build hands-on expertise in EV assembly, fault finding, battery management, and servicing—skills that are in high demand across workshops and EV companies. What makes this course stand out is the integration of modern EV practices like safety standards, efficiency techniques, and structured workflows, helping you work with precision and a professional mindset. If you want real skills, real EV exposure, and strong career growth—this is the perfect place to start.",
+  description:
+    "Our Digital Marketing with Artificial Intelligence course is designed to make you a truly job-ready digital marketing professional. You don’t just learn—you gain a recognized NSQF Level certification (Digilocker Verified) while working on real campaigns and practical projects. <br><br>The training covers what actually matters in today’s digital industry, including SEO, social media marketing, paid ads, content strategy, analytics, and AI-powered tools for automation and optimization. As you progress, you build hands-on expertise in creating campaigns, running ads, analyzing performance, and using AI tools to improve targeting, content creation, and efficiency—skills that are in high demand across startups, agencies, and companies. What makes this course stand out is the integration of modern AI practices like automation, data-driven decision making, and smart marketing workflows, helping you work with speed, creativity, and a professional mindset. <br> If you want real skills, real digital exposure, and strong career growth—this is the perfect place to start.",
 
     buttonText: "Read More"
   };

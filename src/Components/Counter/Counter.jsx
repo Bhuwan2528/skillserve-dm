@@ -38,7 +38,7 @@ const Countdown = ({ openPopup }) => {
       <div className="countdown-text">
         <h2>New Batch Starting Soon</h2>
         <p>
-          Get a chance to learn from us and become an expert in all kind ofElectric Vehicles
+          Get a chance to learn from us and become an expert in Digital Marketing 
         </p>
       </div>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import hero from '../../assets/electric-banner.png'
+import hero from '../../assets/dm-banner.png'
 import { Typewriter } from 'react-simple-typewriter'
 import { FaShieldAlt } from "react-icons/fa"
 
@@ -16,11 +16,11 @@ const Hero = ({ data }) => {
 
   const heroText =
     data?.heroText ||
-    "2 Months Electric Vehicle: 02, 03 & 04 Wheeler Course to make you an Expert in"
+    "2 Months Digital Marketing with Artificial Intelligence Course to make you an Expert in"
 
   const typewriterWords =
     data?.typewriterWords || [
-      "Electric Vehicles"
+      "Digital Marketing "
     ]
 
   const placementText =

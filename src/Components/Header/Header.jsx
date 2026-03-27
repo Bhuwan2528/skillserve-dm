@@ -21,6 +21,7 @@ import Video from '../Video/Video';
 
 import PopupForm from "../../Components/PopupForm/PopupForm";
 import ElectricModule from '../Modules/ElectricModule';
+import DigitalMarketingModules from '../Modules/DigitalMarketingModules';
 
 
 const Header = () => {
@@ -124,7 +125,7 @@ const Header = () => {
         <Hero data={pageData?.hero} openPopup={openPopup} />
         <About openPopup={openPopup} data={pageData?.about}/>
         <Bottom/>
-        <ElectricModule />
+        <DigitalMarketingModules />
         {/* <Course openPopup={openPopup} data={pageData}/> */}
         <Stats />
         <Counter openPopup={openPopup}/>
