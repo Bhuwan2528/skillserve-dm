@@ -20,7 +20,7 @@ const Hero = ({ data }) => {
 
   const typewriterWords =
     data?.typewriterWords || [
-      "Electric Weichles"
+      "Electric Vehicles"
     ]
 
   const placementText =
