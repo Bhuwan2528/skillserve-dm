@@ -36,7 +36,7 @@ const Countdown = ({ openPopup }) => {
     <div className="countdown-container">
 
       <div className="countdown-text">
-        <h2>New Batch Starting Soon</h2>
+        <h2>Limited Time Offer | 10% Discount</h2>
         <p>
           Get a chance to learn from us and become an expert in Digital Marketing 
         </p>
