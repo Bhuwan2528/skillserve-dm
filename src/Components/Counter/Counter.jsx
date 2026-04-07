@@ -4,7 +4,7 @@ import "./Counter.css";
 const Countdown = ({ openPopup }) => {
 
   // ✅ FIXED TARGET DATE (2 April, current year)
-  const targetDate = new Date("April 2, 2026 00:00:00").getTime();
+  const targetDate = new Date("April 10, 2026 00:00:00").getTime();
 
   const calculateTimeLeft = () => {
     const now = new Date().getTime();
